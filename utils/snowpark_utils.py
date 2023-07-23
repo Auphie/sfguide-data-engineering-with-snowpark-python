@@ -59,6 +59,7 @@ def get_snowsql_config(
     snowsql_to_snowpark_config_mapping = {
         'account': 'account',
         'accountname': 'account',
+        'authenticator': 'externalbrowser',
         'username': 'user',
         'password': 'password',
         'rolename': 'role',
